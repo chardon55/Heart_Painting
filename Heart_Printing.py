@@ -10,11 +10,11 @@ def heart_paint():
 
     turtle.fillcolor("pink")
     turtle.hideturtle()
-    turtle.circle(70,180)
-    turtle.circle(170,51.5)
+    turtle.circle(70, 180)
+    turtle.circle(170, 51.5)
     turtle.seth(9.5)
-    turtle.circle(170,51.5)
-    turtle.circle(70,180)
+    turtle.circle(170, 51.5)
+    turtle.circle(70, 180)
 
     turtle.end_fill()
     turtle.penup()
@@ -22,10 +22,10 @@ def heart_paint():
 
 
 def write_script(_str):
-    turtle.write(_str,align=("center"),font=("Vladimir Script",72,"normal"))
+    turtle.write(_str, align=("center"), font=("Vladimir Script", 72, "normal"))
 
     
-turtle.setup(700,500)
+turtle.setup(700, 500)
 turtle.penup()
 turtle.speed(1)
 turtle.seth(90)
